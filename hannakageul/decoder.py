@@ -3,7 +3,7 @@
 
 """
 
-__all__ = ('cp949', 'cp932', 'eucjp', 'i8859', 'i2022', 'utf8')
+__all__ = ('cp949', 'cp932', 'euccn','eucjp', 'i8859', 'i2022', 'utf8')
 
 
 def cp949(source):
