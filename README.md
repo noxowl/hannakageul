@@ -20,9 +20,34 @@ Hangeul - Kana encoding converter
 * Shift-JIS
 * JIS
 
-## Example
+## Usage
 
-* 猫叉Master = 챔꿩Master (EUC-CN to EUC-KR)
-* 佐竹美奈子 = 뜴�|뷏볖럔 (Shift-JIS to EUC-KR)
-* 뱦뺴Project = 東方Project (EUC-KR to Shift-JIS)
-* 한나카글 = �븳�굹移닿�� (UTF-8 to EUC-KR)
+### EUC-CN to EUC-KR
+
+<pre><code>
+>>> hannakageul.convert.euccn.euckr('猫叉Master')
+>>> '챔꿩Master'
+</code></pre>
+
+
+### Shift-JIS to EUC-KR
+
+<pre><code>
+>>> hannakageul.convert.sjis.euckr('佐竹美奈子')
+>>> '뜴�|뷏볖럔'
+</code></pre>
+
+
+### EUC-KR to Shift-JIS
+
+<pre><code>
+>>> hannakageul.convert.euckr.sjis('뱦뺴Project')
+>>> '東方Project'
+</code></pre>
+
+### UTF-8 to EUC-KR
+
+<pre><code>
+>>> hannakageul.convert.utf8.euckr('한나카글')
+>>> '�븳�굹移닿��'
+</code></pre>
