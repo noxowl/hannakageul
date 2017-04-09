@@ -20,6 +20,14 @@ setup(
     author_email='nachtbeere@outlook.com',
     license='MIT',
     url='https://github.com/noxowl/hannakageul',
-    keywords='charset encoding converter',
-    packages=packages
+    keywords=['charset','encoding','converter','euc-kr','shift-jis'],
+    packages=packages,
+    classifiers=[
+        'Development Status :: 3 - Alpha',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Natural Language :: Korean',
+        'Natural Language :: Japanese',
+        'Programming Language :: Python :: 3.5'
+    ]
     )

@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.cache
 
 # Logs and databases #
 ######################
@@ -30,6 +31,9 @@ virtualenv/
 
 # Custom #
 ##########
+dist
+tox.ini
+.tox
 *.egg
 *.egg-info
 *.pyc
