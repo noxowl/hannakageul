@@ -2,14 +2,27 @@
 
 Hangeul - Kana encoding converter
 
+
 ## Features
 
 * Web browser-like character encoding switch.
 * Restore broken character. something like '궇궋궎궑궓' for 'あいうえお'
 
+
 ## Requirements
 
 * Python 3
+
+
+## Installation
+
+<pre><code>
+$ pip install hannakageul
+</code></pre>
+<pre><code>
+$ pip install -e /opt/hannakageul
+</code></pre>
+
 
 ## Supported Encoding
 

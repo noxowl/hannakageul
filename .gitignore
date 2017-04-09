@@ -31,6 +31,7 @@ virtualenv/
 
 # Custom #
 ##########
+build
 dist
 tox.ini
 .tox
