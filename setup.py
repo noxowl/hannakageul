@@ -20,7 +20,7 @@ setup(
     author_email='nachtbeere@outlook.com',
     license='MIT',
     url='https://github.com/noxowl/hannakageul',
-    keywords=['charset','encoding','converter','euc-kr','shift-jis'],
+    keywords=['charset', 'encoding', 'converter', 'euc-kr', 'shift-jis'],
     packages=packages,
     classifiers=[
         'Development Status :: 3 - Alpha',
